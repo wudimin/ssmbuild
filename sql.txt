@@ -1,0 +1,8 @@
+#数据库
+CREATE TABLE `books` (
+  `bookID` int(11) NOT NULL AUTO_INCREMENT COMMENT '书id',
+  `bookName` varchar(255) DEFAULT NULL COMMENT '书名',
+  `bookCounts` int(255) DEFAULT NULL COMMENT '数量',
+  `detail` varchar(255) DEFAULT NULL COMMENT '描述',
+  PRIMARY KEY (`bookID`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
